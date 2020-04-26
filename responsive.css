@@ -1,0 +1,232 @@
+/* tablet */
+@media (max-width:1000px){
+
+
+/* header-awal */
+
+.menu{display: flex;
+justify-content: space-between;
+width:20%;
+
+}
+
+
+.menu a:hover{
+padding:3px 12px;
+}
+
+
+.menu{width:40%;
+}
+
+
+/* header-akhir */
+
+
+/* extra-awal */
+
+.extra{height: 500px;
+padding-top:100px;
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+}
+
+
+
+.extra-text{margin:auto 50px;}
+.extra-text h1,h4 {font-weight: normal;}
+.extra-text h1 {font-size:25px;
+letter-spacing: 3px;
+}
+.extra-text h4 {font-size:12px;
+letter-spacing: 3px;
+line-height: 20px;
+padding-top: 10px;
+}
+
+
+
+
+
+
+/* extra-akhir */
+
+
+
+/* banner-awal */
+
+.banner{
+margin:-120px auto auto auto;
+width:80%;
+height:240px;
+box-shadow:0px 50px 10px -20px rgba(0, 0, 0, 0.7);}
+
+
+
+.banner-icon{
+flex-direction: column;
+margin:30px;
+display: flex;
+align-items: center;
+}
+
+.icon-ku{width:70%;
+display: flex;}
+
+.banner-icon h3{font-size: 15px;
+padding-top: 10px;}
+
+.banner-icon p{font-size: 10px;
+padding-top: 8px;;
+text-align: center;}
+
+/* banner-akhir */
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* smartphone */
+@media(max-width:670px){
+
+
+/* header-awal */
+
+header .container{
+align-items: center;
+display: flex;
+justify-content: space-between;
+}
+
+
+.logo{display: flex;
+} 
+
+.menu-bar{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 8%;
+height:30px;
+}
+
+.menu-bar span{
+background-color:white;
+width: 100%;
+height: 5px;
+border-radius: 3px;
+display: block;
+}
+
+.menu-bar:hover{opacity: 0.5;}
+.menu{display: none;
+}
+
+/* header-akhir */
+
+
+
+
+/* extra-awal */
+.extra{text-align: left;
+height: 460px;
+padding-top:110px;
+}
+
+
+.extra-text{margin:auto 100px auto 0;
+}
+
+.extra-text h1{font-weight: 400;
+letter-spacing: 4px;
+font-size: 20px;
+line-height: 30px;
+}
+
+.extra-text h4{letter-spacing: 3px;
+font-size: 12px;
+font-weight: 300;
+line-height:12px;
+padding-top: 5px;
+}
+
+.extra-text,.extra-btn{
+animation-duration: 8s;
+}
+
+.extra-btn{margin-top: 15px;}
+.extra-btn a{font-size: 13px;
+font-weight: normal;
+padding:6px 12px;
+border:0.85px solid white;
+border-radius: 20px;
+color:white;}
+
+
+/* extra-akhir */
+
+
+
+/* banner-awal */
+
+.banner{
+margin:-60px auto auto auto;
+width:90%;
+height:120px;
+box-shadow:0px 40px 10px -20px rgba(0, 0, 0, 0.7);
+}
+
+.banner-icon{width:30%;
+
+}
+.icon-ku{width:90%;
+display: flex;
+}
+
+.banner-icon h3{font-size: 13px;
+padding-top: 3px;
+text-align: center;}
+
+.banner-icon p{
+display: none;
+}
+
+/*banner-akhir */
+
+
+
+
+
+
+
+}
