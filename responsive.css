@@ -38,11 +38,13 @@ background-repeat: no-repeat;
 .extra-text h1,h4 {font-weight: normal;}
 .extra-text h1 {font-size:25px;
 letter-spacing: 3px;
+font-weight: 500;
 }
 .extra-text h4 {font-size:12px;
 letter-spacing: 3px;
 line-height: 20px;
 padding-top: 10px;
+font-weight: 100;
 }
 
 
@@ -160,7 +162,6 @@ display: block;
 /* extra-awal */
 .extra{text-align: left;
 height: 460px;
-padding-top:110px;
 }
 
 
@@ -170,21 +171,17 @@ padding-top:110px;
 .extra-text h1{font-weight: 400;
 letter-spacing: 4px;
 font-size: 20px;
-line-height: 30px;
+line-height: 20px;
 }
 
 .extra-text h4{letter-spacing: 3px;
-font-size: 12px;
+font-size: 10px;
 font-weight: 300;
 line-height:12px;
 padding-top: 5px;
 }
 
-.extra-text,.extra-btn{
-animation-duration: 8s;
-}
 
-.extra-btn{margin-top: 15px;}
 .extra-btn a{font-size: 13px;
 font-weight: normal;
 padding:6px 12px;
@@ -206,8 +203,10 @@ height:120px;
 box-shadow:0px 40px 10px -20px rgba(0, 0, 0, 0.7);
 }
 
-
-.icon-ku{width:100%;
+.banner-icon{margin:auto;
+}
+  
+.icon-ku{width:70%;
 display: flex;
 }
 
