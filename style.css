@@ -90,7 +90,7 @@ display: flex;
 font-family: 'Roboto', sans-serif;
 position: relative;}
 
-.extra-text h1{font-weight:300px;
+.extra-text h1{font-weight:500;
 letter-spacing: 3px;
 font-size: 28px;
 animation-name: geserAtas;
@@ -101,7 +101,7 @@ line-height: 40px;
 .extra-text h4{padding-top: 10px;
 line-height: 20px;
 letter-spacing:3px;
-font-weight: normal;
+font-weight: 200;
 animation-name: geserBawah;
 animation-duration: 6s;
 }
@@ -142,7 +142,7 @@ top:0;
 
 
 /* animasi */
-.extra-text,.extra-btn{
+.extra-text.extra-btn{
 animation-name: muncul;
 animation-duration: 15s;
 animation-delay: 500ms;
@@ -252,26 +252,3 @@ background-color: red;
 }
 
 
-@keyframes geserkanan {
-    from
-        {opacity:0;
-        transform: translateX(-50px);
-        }
-    to
-        {opacity:1;
-        transform: translateX(0);
-        }
-}
-
-
-
-@keyframes geserkiri {
-    from
-        {opacity:0;
-        transform: translateX(600px);
-        }
-    to
-        {opacity:1;
-        transform: translateX(0);
-        }
-}
